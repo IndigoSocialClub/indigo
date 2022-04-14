@@ -10,6 +10,16 @@ body {
     color:f81982;
     font-family:Etna-Bold;
 }
+
+#about {
+    text-align: center;
+    font-size: 2vw;
+}
+
+#contain {
+    margin: auto;
+    width: 60%;
+}
 #title {
     width: 45vw;
     margin-top: 2vw;
