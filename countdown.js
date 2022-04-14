@@ -2,6 +2,9 @@
 var countDownDate = new Date("April 14, 2022 21:00:00").getTime();
 
 function makeMeTwoDigits(n){
+    if (n==null) {
+      n = 0
+    }
     return (n < 10 ? "0" : "") + n;
 }
 
