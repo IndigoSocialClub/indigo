@@ -11,10 +11,6 @@ body {
     font-family:Etna-Bold;
 }
 
-.text p1 {
-    font-size: 2vw;
-}
-
 #contain {
     margin: auto;
     width: 60%;
@@ -70,6 +66,7 @@ body {
     text-decoration: none;
     float: right;
     padding-left: 1vw;
+
 }
 .fa:hover {
     opacity: 0.7;
@@ -110,27 +107,44 @@ canvas{
     /*.row h2 {padding-top: 65vw;}*/
     .container {padding-top: 62.5vw;}
     .row h2 {padding-top: 3vw;}
+    .text {font-size: 2vw;}
+    .text p1 {font-size: 5vw;}
+    .fa-linkedin {font-size: 12px;}
+    .fa-instagram {size: 12px;}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 375px) {
     .container {padding-top: 45vw;}
     .row h2 {padding-top: 3vw;}
+    .text p1 {font-size: 4vw;}
+    .fa-linkedin {size: 14px;}
+    .fa-instagram {size: 14px;}
+
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     .container {padding-top: 8vw;}
     .row h2 {padding-top: 4.5vw;}
+    .text p1 {font-size: 3vw;}
+    .fa-linkedin {size: 16px;}
+    .fa-instagram {size: 16px;}
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     .container {padding-top: 5vw;}
     .row h2 {padding-top: 2.5vw;}
+    .text p1 {font-size: 2.5vw;}
+    .fa-linkedin {size: 18px;}
+    .fa-instagram {size: 18px;}
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     .container {padding-top: 3vw;}
     .row h2 {padding-top: 1.5vw;}
+    .text p1 {font-size: 2vw;}
+    .fa-linkedin {size: 20px;}
+    .fa-instagram {size: 20px;}
 }
