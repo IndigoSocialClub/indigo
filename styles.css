@@ -11,15 +11,11 @@ body {
     font-family:Etna-Bold;
 }
 
-#about {
-    text-align: center;
-    font-size: 3vw;
-}
-
 #contain {
     margin: auto;
     width: 60%;
 }
+
 #title {
     width: 45vw;
     margin-top: 2vw;
