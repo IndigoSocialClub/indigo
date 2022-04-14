@@ -11,6 +11,10 @@ body {
     font-family:Etna-Bold;
 }
 
+.text p1 {
+    font-size: 2vw;
+}
+
 #contain {
     margin: auto;
     width: 60%;
