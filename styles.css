@@ -11,6 +11,12 @@ body {
     font-family:Etna-Bold;
 }
 
+.aboutblurb {
+    text-align: center;
+    color:f81982;
+    font-family:Etna-Bold;
+}
+
 #contain {
     margin: auto;
     width: 60%;
@@ -105,46 +111,64 @@ canvas{
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 320px) {
     /*.row h2 {padding-top: 65vw;}*/
-    .container {padding-top: 62.5vw;}
+    .socialmedia {
+        height: 12px;
+    }
+    #title {
+        width: 65vw;
+        height: 12vw;
+        margin-top: 3vw;
+        height: 20vw;
+    }
+    .container {padding-top: 55vw;}
+    .aboutcontainer {padding-top: 38vw;}
     .row h2 {padding-top: 3vw;}
-    .text {font-size: 2vw;}
-    .text p1 {font-size: 5vw;}
-    .fa-linkedin {font-size: 12px;}
+    .text {font-size: 3vw;}
+    .aboutblurb {font-size: 3.5vw;}
+    .fa-linkedin {size: 12px;}
     .fa-instagram {size: 12px;}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 375px) {
+    .socialmedia {
+        height: 14px;
+    }
     .container {padding-top: 45vw;}
     .row h2 {padding-top: 3vw;}
-    .text p1 {font-size: 4vw;}
-    .fa-linkedin {size: 14px;}
-    .fa-instagram {size: 14px;}
+    .aboutblurb {font-size: 2vw;}
+    .fa-linkedin {size: 20px;}
+    .fa-instagram {size: 20px;}
 
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+    .socialmedia {
+        height: 16px;
+    }
     .container {padding-top: 8vw;}
     .row h2 {padding-top: 4.5vw;}
-    .text p1 {font-size: 3vw;}
-    .fa-linkedin {size: 16px;}
-    .fa-instagram {size: 16px;}
+    .aboutblurb {font-size: 3vw;}
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+    .socialmedia {
+        height: 18px;
+    }
     .container {padding-top: 5vw;}
     .row h2 {padding-top: 2.5vw;}
-    .text p1 {font-size: 2.5vw;}
-    .fa-linkedin {size: 18px;}
-    .fa-instagram {size: 18px;}
+    .aboutblurb {font-size: 2.5vw;}
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+    .socialmedia {
+        height: 20px;
+    }
     .container {padding-top: 3vw;}
     .row h2 {padding-top: 1.5vw;}
-    .text p1 {font-size: 2vw;}
-    .fa-linkedin {size: 20px;}
-    .fa-instagram {size: 20px;}
+    .aboutblurb {font-size: 2vw;}
+
 }
