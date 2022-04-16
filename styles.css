@@ -1,0 +1,201 @@
+body {
+    background-color: 2b0c9e;
+}
+* {
+    box-sizing: border-box;
+}
+
+.text {
+    text-align: center;
+    color:f81982;
+    font-family:Etna-Bold;
+}
+
+.aboutblurb {
+    text-align: center;
+    color:f81982;
+    font-family:Etna-Bold;
+}
+
+#contain {
+    margin: auto;
+    width: 60%;
+}
+
+#title {
+    width: 45vw;
+    margin-top: 2vw;
+    height: 11vw;
+    align-self: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+#words {
+    width: 14vw;
+}
+
+.column {
+    float: left;
+    margin:auto;
+  }
+
+.row{
+    margin:auto;
+    width: 66vw;
+}
+.row h2 {
+    font-size: 9vw;
+    margin: auto;
+    padding-bottom: 2vw;
+}
+
+.row p2 {
+    font-size: 3vw;
+}
+  
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    white-space: nowrap;
+  }
+
+.fa {
+    color:white;
+    text-decoration: none;
+    float: right;
+    padding-left: 1vw;
+
+}
+.fa:hover {
+    opacity: 0.7;
+
+}
+
+a:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(110, 115, 128);
+    opacity: 0.7;
+}
+
+a:active {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a:link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.make_white {
+    color: white;
+}
+
+canvas{
+    margin: 0 auto;
+}
+
+nav.main-menu{
+    background-color: 2b0c9e;
+}
+
+nav.main-menu li {
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    margin: 5px;
+    display: inline;
+    width: 200px;
+    padding: 6px;
+    background-color: 2b0c9e;
+    user-select: none;
+    position:relative;
+}
+
+nav.main-menu ul{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+ul.no-bullets {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 320px) {
+    /*.row h2 {padding-top: 65vw;}*/
+    .socialmedia {
+        height: 12px;
+    }
+    #title {
+        width: 65vw;
+        height: 12vw;
+        margin-top: 3vw;
+        height: 20vw;
+    }
+    .container {padding-top: 55vw;}
+    .aboutcontainer {padding-top: 38vw;}
+    .row h2 {padding-top: 3vw;}
+    .text {font-size: 3vw;}
+    .aboutblurb {font-size: 3.5vw;}
+    .fa-linkedin {size: 12px;}
+    .fa-instagram {size: 12px;}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 375px) {
+    .socialmedia {
+        height: 14px;
+    }
+    .container {padding-top: 45vw;}
+    .row h2 {padding-top: 3vw;}
+    .aboutblurb {font-size: 2vw;}
+    .fa-linkedin {size: 20px;}
+    .fa-instagram {size: 20px;}
+
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .socialmedia {
+        height: 16px;
+    }
+    .container {padding-top: 8vw;}
+    .row h2 {padding-top: 4.5vw;}
+    .aboutblurb {font-size: 3vw;}
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .socialmedia {
+        height: 18px;
+    }
+    .container {padding-top: 5vw;}
+    .row h2 {padding-top: 2.5vw;}
+    .aboutblurb {font-size: 2.5vw;}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .socialmedia {
+        height: 20px;
+    }
+    .container {padding-top: 3vw;}
+    .row h2 {padding-top: 1.5vw;}
+    .aboutblurb {font-size: 2vw;}
+
+}
