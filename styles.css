@@ -7,7 +7,7 @@ body {
 
 .text {
     text-align: center;
-    color:f81982;
+    color: f81982;
     font-family:Etna-Bold;
 }
 
@@ -80,22 +80,22 @@ body {
 }
 
 a:visited {
-    color: rgb(255, 255, 255);
+    color: f81982;
     text-decoration: none;
 }
 
 a:hover {
-    color: rgb(110, 115, 128);
+    color: rgb(248, 140, 190);
     opacity: 0.7;
 }
 
 a:active {
-    color: rgb(255, 255, 255);
+    color: f81982;
     text-decoration: none;
 }
 
 a:link {
-    color: rgb(255, 255, 255);
+    color: f81982;
     text-decoration: none;
 }
 
@@ -114,10 +114,8 @@ nav.main-menu{
 
 nav.main-menu li {
     font-weight: bold;
-    color: rgb(255, 255, 255);
-    margin: 5px;
+    color: f81982;
     display: inline;
-    width: 200px;
     padding: 6px;
     background-color: 2b0c9e;
     user-select: none;
@@ -151,7 +149,8 @@ ul.no-bullets {
     .container {padding-top: 55vw;}
     .aboutcontainer {padding-top: 38vw;}
     .row h2 {padding-top: 3vw;}
-    .aboutblurb {font-size: 5vw;}
+    .text {font-size: 5vw;}
+    .aboutblurb {font-size: 3.5vw;}
     .fa-linkedin {size: 12px;}
     .fa-instagram {size: 12px;}
 }
