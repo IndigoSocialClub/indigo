@@ -1,5 +1,5 @@
 // Set the date we're counting down to
-var countDownDate = new Date("April 29, 2022 21:30:00").getTime();
+var countDownDate = new Date("May 28, 2022 10:00:00").getTime();
 
 function makeMeTwoDigits(n){
     if (n==null) {
