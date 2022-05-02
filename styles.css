@@ -134,6 +134,28 @@ ul.no-bullets {
     margin: 0; /* Remove margins */
 }
 
+/* PRESS GRID */
+
+h3 {
+    font-size: 2vw;
+}
+
+p3 {
+    font-size: 1.5vw;
+}
+
+.grid-container {
+    display: inline-grid;
+    gap: 5vw 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row1 {
+    grid-row: 1 / 1;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 320px) {
     /*.row h2 {padding-top: 65vw;}*/
